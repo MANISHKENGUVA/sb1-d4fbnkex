@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Vue 2.x Component Inspector",
+  "version": "1.0.0",
+  "description": "Detect Vue 2.x components and Vuex usage on Vue pages",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

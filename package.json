@@ -1,0 +1,20 @@
+{
+  "name": "vue-component-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
